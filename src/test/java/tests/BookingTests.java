@@ -70,9 +70,10 @@ public class BookingTests {
 	public static void deleteBooking() {
 
 		Response respone = RestAssured.given().header("Content-Type", "application/json").accept("application/json")
-				.header("Authorization", basicAuth).when().delete("/booking/" + bookingID).then().statusCode(201).log().all() 
-				.extract().response();
+				.header("Authorization", basicAuth).when().delete("/booking/" + bookingID).then().statusCode(201).log()
+				.all().extract().response();
 		System.out.println(respone);
+		System.out.println("Booking has been deleted successfully");
 	}
 
 }
