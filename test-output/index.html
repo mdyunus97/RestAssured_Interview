@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\MahammedYunus\eclipse-workspace\RestAssured_Interview\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.SerializationAndDeserializationProcess" class="method navigator-link" hash-for-method="convertPOJOtoJson">convertPOJOtoJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.JSONSchemaValidations" class="method navigator-link" hash-for-method="createBookingTest">createBookingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.BookingTests" class="method navigator-link" hash-for-method="createBookingTest">createBookingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.DataDrivenTest" class="method navigator-link" hash-for-method="dataDrivenTest({&quot;firstname&quot;:&quot;Yunus&quot;,&quot;additionalneeds&quot;:&quot;Breakfast&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2018-01-01&quot;,&quot;checkout&quot;...)">dataDrivenTest({"firstname":"Yunus","additionalneeds":"Breakfast","bookingdates":{"checkin":"2018-01-01","checkout"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.DataDrivenTest" class="method navigator-link" hash-for-method="dataDrivenTest({&quot;firstname&quot;:&quot;Mahammed&quot;,&quot;additionalneeds&quot;:&quot;Dinner&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2020-02-01&quot;,&quot;checkout&quot;...)">dataDrivenTest({"firstname":"Mahammed","additionalneeds":"Dinner","bookingdates":{"checkin":"2020-02-01","checkout"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.BookingTests" class="method navigator-link" hash-for-method="deleteBooking">deleteBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.JSONSchemaValidations" class="method navigator-link" hash-for-method="getResources">getResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.BookingTests" class="method navigator-link" hash-for-method="getResources">getResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.DataDrivenTest" class="method navigator-link" hash-for-method="getResources">getResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.SerializationAndDeserializationProcess" class="method navigator-link" hash-for-method="getResources">getResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.BookingTests" class="method navigator-link" hash-for-method="updateBooking">updateBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.BookingTests" class="method navigator-link" hash-for-method="verifyBookingUpdated">verifyBookingUpdated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DataDrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataDrivenTest({&quot;firstname&quot;:&quot;Yunus&quot;,&quot;additionalneeds&quot;:&quot;Breakfast&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2018-01-01&quot;,&quot;checkout&quot;...)">
+                  </a> <!-- dataDrivenTest({"firstname":"Yunus","additionalneeds":"Breakfast","bookingdates":{"checkin":"2018-01-01","checkout"...) -->
+                  <span class="method-name">dataDrivenTest</span>
+                  <span class="parameters">({"firstname":"Yunus","additionalneeds":"Breakfast","bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"totalprice":111,"depositpaid":true,"lastname":"Brown"})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataDrivenTest({&quot;firstname&quot;:&quot;Mahammed&quot;,&quot;additionalneeds&quot;:&quot;Dinner&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2020-02-01&quot;,&quot;checkout&quot;...)">
+                  </a> <!-- dataDrivenTest({"firstname":"Mahammed","additionalneeds":"Dinner","bookingdates":{"checkin":"2020-02-01","checkout"...) -->
+                  <span class="method-name">dataDrivenTest</span>
+                  <span class="parameters">({"firstname":"Mahammed","additionalneeds":"Dinner","bookingdates":{"checkin":"2020-02-01","checkout":"2020-03-01"},"totalprice":222,"depositpaid":false,"lastname":"Khan"})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResources">
+                  </a> <!-- getResources -->
+                  <span class="method-name">getResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SerializationAndDeserializationProcess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="convertPOJOtoJson">
+                  </a> <!-- convertPOJOtoJson -->
+                  <span class="method-name">convertPOJOtoJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResources">
+                  </a> <!-- getResources -->
+                  <span class="method-name">getResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.BookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBookingTest">
+                  </a> <!-- createBookingTest -->
+                  <span class="method-name">createBookingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBooking">
+                  </a> <!-- deleteBooking -->
+                  <span class="method-name">deleteBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResources">
+                  </a> <!-- getResources -->
+                  <span class="method-name">getResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBooking">
+                  </a> <!-- updateBooking -->
+                  <span class="method-name">updateBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookingUpdated">
+                  </a> <!-- verifyBookingUpdated -->
+                  <span class="method-name">verifyBookingUpdated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.JSONSchemaValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBookingTest">
+                  </a> <!-- createBookingTest -->
+                  <span class="method-name">createBookingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResources">
+                  </a> <!-- getResources -->
+                  <span class="method-name">getResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MahammedYunus\eclipse-workspace\RestAssured_Interview\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.DataDrivenTest&quot;/&gt;
+      &lt;class name=&quot;tests.BookingTests&quot;/&gt;
+      &lt;class name=&quot;tests.SerializationAndDeserializationProcess&quot;/&gt;
+      &lt;class name=&quot;tests.JSONSchemaValidations&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getResources')
+data.setCell(0, 2, 'tests.DataDrivenTest')
+data.setCell(0, 3, 4295);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getResources')
+data.setCell(1, 2, 'tests.JSONSchemaValidations')
+data.setCell(1, 3, 3476);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dataDrivenTest')
+data.setCell(2, 2, 'tests.DataDrivenTest')
+data.setCell(2, 3, 3382);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getResources')
+data.setCell(3, 2, 'tests.SerializationAndDeserializationProcess')
+data.setCell(3, 3, 3182);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getResources')
+data.setCell(4, 2, 'tests.BookingTests')
+data.setCell(4, 3, 3150);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'convertPOJOtoJson')
+data.setCell(5, 2, 'tests.SerializationAndDeserializationProcess')
+data.setCell(5, 3, 1529);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'dataDrivenTest')
+data.setCell(6, 2, 'tests.DataDrivenTest')
+data.setCell(6, 3, 1176);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createBookingTest')
+data.setCell(7, 2, 'tests.BookingTests')
+data.setCell(7, 3, 1170);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'updateBooking')
+data.setCell(8, 2, 'tests.BookingTests')
+data.setCell(8, 3, 1157);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyBookingUpdated')
+data.setCell(9, 2, 'tests.BookingTests')
+data.setCell(9, 3, 1137);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createBookingTest')
+data.setCell(10, 2, 'tests.JSONSchemaValidations')
+data.setCell(10, 3, 1132);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deleteBooking')
+data.setCell(11, 2, 'tests.BookingTests')
+data.setCell(11, 3, 1073);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DataDrivenTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dataDrivenTest({"firstname":"Yunus","additionalneeds":"Breakfast","bookingdates":{"checkin":"2018-01-01","checkout"...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataDrivenTest({"firstname":"Mahammed","additionalneeds":"Dinner","bookingdates":{"checkin":"2020-02-01","checkout"...)</span>
+                <span class="method-start">3387 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResources</span>
+                <span class="method-start">4565 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.BookingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createBookingTest</span>
+                <span class="method-start">8866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResources</span>
+                <span class="method-start">10041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateBooking</span>
+                <span class="method-start">13193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookingUpdated</span>
+                <span class="method-start">14353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteBooking</span>
+                <span class="method-start">15492 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SerializationAndDeserializationProcess</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">convertPOJOtoJson</span>
+                <span class="method-start">16567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResources</span>
+                <span class="method-start">18098 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.JSONSchemaValidations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createBookingTest</span>
+                <span class="method-start">21282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getResources</span>
+                <span class="method-start">22417 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

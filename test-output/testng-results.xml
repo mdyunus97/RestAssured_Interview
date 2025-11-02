@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-02T15:35:07 IST" name="Suite" finished-at="2025-11-02T15:35:34 IST" duration-ms="26845">
+    <groups>
+    </groups>
+    <test started-at="2025-11-02T15:35:07 IST" name="Test" finished-at="2025-11-02T15:35:34 IST" duration-ms="26845">
+      <class name="tests.DataDrivenTest">
+        <test-method signature="dataDrivenTest(org.json.simple.JSONObject)[pri:0, instance:tests.DataDrivenTest@3d34d211]" started-at="2025-11-02T15:35:08 IST" name="dataDrivenTest" data-provider="bookingdata" finished-at="2025-11-02T15:35:11 IST" duration-ms="3382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"Yunus","additionalneeds":"Breakfast","bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"totalprice":111,"depositpaid":true,"lastname":"Brown"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method signature="dataDrivenTest(org.json.simple.JSONObject)[pri:0, instance:tests.DataDrivenTest@3d34d211]" started-at="2025-11-02T15:35:11 IST" name="dataDrivenTest" data-provider="bookingdata" finished-at="2025-11-02T15:35:12 IST" duration-ms="1176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"Mahammed","additionalneeds":"Dinner","bookingdates":{"checkin":"2020-02-01","checkout":"2020-03-01"},"totalprice":222,"depositpaid":false,"lastname":"Khan"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method signature="getResources()[pri:0, instance:tests.DataDrivenTest@3d34d211]" started-at="2025-11-02T15:35:12 IST" name="getResources" finished-at="2025-11-02T15:35:17 IST" duration-ms="4295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResources -->
+      </class> <!-- tests.DataDrivenTest -->
+      <class name="tests.BookingTests">
+        <test-method signature="createBookingTest()[pri:0, instance:tests.BookingTests@bccb269]" started-at="2025-11-02T15:35:17 IST" name="createBookingTest" finished-at="2025-11-02T15:35:18 IST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingTest -->
+        <test-method signature="getResources()[pri:0, instance:tests.BookingTests@bccb269]" started-at="2025-11-02T15:35:18 IST" name="getResources" finished-at="2025-11-02T15:35:21 IST" depends-on-methods="tests.BookingTests.createBookingTest" duration-ms="3150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResources -->
+        <test-method signature="updateBooking()[pri:0, instance:tests.BookingTests@bccb269]" started-at="2025-11-02T15:35:21 IST" name="updateBooking" finished-at="2025-11-02T15:35:22 IST" depends-on-methods="tests.BookingTests.getResources" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+        <test-method signature="verifyBookingUpdated()[pri:0, instance:tests.BookingTests@bccb269]" started-at="2025-11-02T15:35:22 IST" name="verifyBookingUpdated" finished-at="2025-11-02T15:35:23 IST" depends-on-methods="tests.BookingTests.updateBooking" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookingUpdated -->
+        <test-method signature="deleteBooking()[pri:0, instance:tests.BookingTests@bccb269]" started-at="2025-11-02T15:35:23 IST" name="deleteBooking" finished-at="2025-11-02T15:35:24 IST" depends-on-methods="tests.BookingTests.verifyBookingUpdated" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+      </class> <!-- tests.BookingTests -->
+      <class name="tests.SerializationAndDeserializationProcess">
+        <test-method signature="convertPOJOtoJson()[pri:0, instance:tests.SerializationAndDeserializationProcess@609cd4d8]" started-at="2025-11-02T15:35:24 IST" name="convertPOJOtoJson" finished-at="2025-11-02T15:35:26 IST" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertPOJOtoJson -->
+        <test-method signature="getResources()[pri:0, instance:tests.SerializationAndDeserializationProcess@609cd4d8]" started-at="2025-11-02T15:35:26 IST" name="getResources" finished-at="2025-11-02T15:35:29 IST" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResources -->
+      </class> <!-- tests.SerializationAndDeserializationProcess -->
+      <class name="tests.JSONSchemaValidations">
+        <test-method signature="createBookingTest()[pri:0, instance:tests.JSONSchemaValidations@17f7cd29]" started-at="2025-11-02T15:35:29 IST" name="createBookingTest" finished-at="2025-11-02T15:35:30 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingTest -->
+        <test-method signature="getResources()[pri:0, instance:tests.JSONSchemaValidations@17f7cd29]" started-at="2025-11-02T15:35:30 IST" name="getResources" finished-at="2025-11-02T15:35:34 IST" depends-on-methods="tests.JSONSchemaValidations.createBookingTest" duration-ms="3476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResources -->
+      </class> <!-- tests.JSONSchemaValidations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
